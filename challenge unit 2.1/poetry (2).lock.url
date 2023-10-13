@@ -1,2 +1,15 @@
-[InternetShortcut]
-URL=https://github.com/gayathri198/gayathri/blob/main/poetry%20(2).lock
+class player:
+    def play(self):
+        print("The player is playing cricket.")
+class classbatsman(player):
+    def play(self):
+        print("The batsman is batting.")
+class bowler(player):
+    def play(self):
+        print("The bowler is bowling.")
+
+batsman = batsman()
+bowler = bowler()
+
+batsman.play()
+bowler.play()
